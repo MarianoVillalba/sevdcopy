@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"CargaNotasTest::testNotaValida":0.127,"CargaNotasTest::testAccesoAutorizado":0.002,"PreinscripcionTest::testFormularioHabilitado":0,"PreinscripcionTest::testPeriodoAbierto":0.017,"PreinscripcionTest::testAlumnoSinRestricciones":0}}
