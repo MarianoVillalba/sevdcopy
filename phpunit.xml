@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="vendor/autoload.php" colors="true">
-  <testsuites>
-    <testsuite name="My Tests">
-      <directory>tests</directory>
-    </testsuite>
-  </testsuites>
+<phpunit
+    bootstrap="vendor/autoload.php"
+    colors="true"
+    beStrictAboutTestsThatDoNotTestAnything="true"
+>
+    <testsuites>
+        <testsuite name="sevdcopy Tests">
+            <directory suffix="Test.php">tests</directory>
+        </testsuite>
+    </testsuites>
 
-  <source>
-    <include>
-      <directory suffix=".php">php</directory>
-    </include>
-  </source>
+    <source>
+        <include>
+            <directory suffix=".php">php</directory>
+            <directory suffix=".php">includes</directory>
+        </include>
+    </source>
 </phpunit>
